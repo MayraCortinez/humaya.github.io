@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+main, footer {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 150px;
+    transition: top 0.5s ease-in-out;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+  }
+  
+#header.hide {
+    top: -150px;
+  }
+
+
+.encabezado {
+    padding: 30px;
+    background-image: linear-gradient(to top, #b8aa092d, #978b2057, #78722994, #5b572d56, #403e2e46);
+    backdrop-filter: blur(5px);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.navBar ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    color: bisque;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.navBar ul li:hover{
+    background-color: rgba(250, 235, 215, 0.151);
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.banner{
+    background: linear-gradient(to left, rgba(71, 47, 1, 0.73)20%, rgba(0, 0, 0, 0.1)), url(/img/banner);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 800px;
+    color: white;
+    display: flex;  
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 100%;
+}
+
+.text-banner{
+    width: 50%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    padding: 40px 0px 20px 0px;
+    font-size: xxx-large;
+}
+
+.text-banner p {
+    width: 80%;
+    line-height: 1.5;
+    padding: 15px;
+    font-size:x-large;
+    color: white;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+.text-banner span{
+    padding: 20px;
+    border-radius: 19px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+.text-banner span a{
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+}
+
+.productos h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(94, 93, 93);
+    margin-bottom: 0;
+    padding: 40px; 
+}
+
+
+.productos article {
+    display: flex; 
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+
+.divImg {
+    width: 100%;
+}
+
+.productos article img {
+    width: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.productText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    color:rgb(145, 120, 75); 
+    gap: 15px;
+}
+
+.productText p {
+    color: white;
+}
+
+.productText span {
+    font-weight: bold;
+}
+
+.productText p, .productText span {
+    text-align:start;
+    padding: 0px 60px 0px 70px;
+}
+
+.productText button {
+    inline-size: fit-content;
+    align-self: center;
+    color:rgb(145, 120, 75);
+    padding: 15px;
+    border-radius: 2px;
+    margin-top: 15px; 
+    background-color: black;
+    border-color: rgb(145, 120, 75);
+}
+
+.alfajores{
+    display: flex;
+    height: 400px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.alfajoresText{
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px;
+    color:rgb(78, 61, 30);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.alfajoresText p {
+    color: white;
+}
+
+.alfajoresText p {
+    text-align:start;
+    padding: 0;
+}
+
+.alfajoresText span {
+    align-self: start;
+    font-weight: bold;
+}
+
+.alfajoresText button {
+    inline-size: fit-content;
+    align-self: center;
+    color: rgb(78, 61, 30);
+    padding: 15px;
+    border-radius: 2px;
+    margin-top: 15px; 
+    background-color: rgb(211, 175, 134);
+    border-color: rgb(78, 61, 30);
+}
+
+.alfajores img{
+    position: relative;
+    width: 100%; 
+    max-height: max-content;
+    box-sizing: border-box;
+}
+
+.clientesContainer {
+    text-align: center;
+    font-size: medium;
+    color:rgba(233, 185, 129, 0.767);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background: rgb(48,48,47);
+    background: linear-gradient(0deg, rgba(48,48,47,1) 0%, rgba(12,12,12,0) 65%);
+}
+
+.clientesContainer h2 {
+    color:white;
+}
+
+.slide-text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.frases{
+    overflow: hidden;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.text-ul {
+    width: 100%;
+    padding: 15px;
+    height: 70px;
+    position: relative;
+    animation: slide 8s cubic-bezier(.17,.50,.83,.67) infinite; 
+    margin: auto;
+}
+
+.text-li {
+    width: 100%;
+    position: relative;
+    height: 70px;
+    top: 150%;
+    line-height: 70px;
+    font-size: 18px;
+    text-align: center;
+}
+
+li:first-child{
+    top: 100%;
+}
+
+li:last-child{
+    top: 300%;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(0);
+    }
+    15%, 30% {
+        transform: translateY(-100%);
+    }
+    45%, 60% {
+        transform: translateY(-200%);
+    }
+    75%, 90% {
+        transform: translateY(-300%);
+    }
+    100% {
+        transform: translateY(-400%);
+    }
+}
+
+.clientes {
+    gap: 30px;
+    justify-content: space-evenly;
+    padding: 40px;
+    height: 100%;
+}
+
+.clientes img{
+    width: 100px;
+    height: 100px;
+    object-fit: inherit;
+}
+
+.calidad{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(46, 45, 45);
+    text-align: center;
+    padding: 20px 0px 3px 0px;
+}
+
+.calidad p {
+    font-size: x-large;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+}
+
+.formContacto {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.formContacto img{
+    width: 100%;
+    height: 100%;
+}
+
+.formText{
+    width: 100%;
+    padding: 100px;
+    background-color: white;
+    color: rgb(78, 61, 30);
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formText h3{
+    font-size: medium;
+    text-align: top;
+}
+.formText label{
+    text-transform: uppercase;
+}
+
+.mb-3 input, .mb-3 textarea{
+    background-color: rgba(126, 98, 67, 0.767);
+}
+
+.recetas{
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    font-size: medium;
+    padding: 20px 50px;
+}
+
+.recetas .card-group{
+    gap: 20px;
+}
+
+.recetas h5{
+    color: #6c5308;
+    font-size: x-large;
+}
+
+.recetas .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.recetas .card{
+    background-color:rgba(196, 153, 104, 0.767);
+    font-weight:bold;
+}
+
+.recetas p{
+    font-size: small;
+    text-align: start;
+    color: white;
+    align-self: center;
+}
+
+.recetas img{
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+
+}
+
+#recetasLink{
+    text-align: center;
+   
+}
+
+#recetasLink a{
+    text-decoration: none;
+    color: #6c5308;
+    border:solid 2px #6c5308 ;
+    padding: 2px 15px 2px 15px;
+    align-self: flex-end;
+}
+
+.encontranos{
+    padding-top: 60px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: medium;
+    padding: 50px;
+}
+
+footer a {
+    align-self: center;
+}
+
+footer h4 {
+    color:rgb(145, 120, 75);
+}
+
+footer span{
+    font-weight: bold;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
