@@ -60,7 +60,7 @@ nav{
 }
 
 .banner{
-    background: linear-gradient(to left, rgba(71, 47, 1, 0.73)20%, rgba(0, 0, 0, 0.1)), url(/img/banner);
+    background: linear-gradient(to left, rgba(71, 46, 1, 0.87)20%, rgba(0, 0, 0, 0.336)), url(/img/banner.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -344,7 +344,7 @@ li:last-child{
 }
 
 .formText{
-    width: 100%;
+    width: 350%;
     padding: 100px;
     background-color: white;
     color: rgb(78, 61, 30);
@@ -356,8 +356,10 @@ li:last-child{
 
 .formText h3{
     font-size: medium;
-    text-align: top;
+    margin-top: -100px;
+    margin-bottom: 100px;
 }
+
 .formText label{
     text-transform: uppercase;
 }
