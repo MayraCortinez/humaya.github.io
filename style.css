@@ -452,8 +452,20 @@ footer {
     padding: 50px;
 }
 
-footer a {
+footer #logo{
     align-self: center;
+}
+
+footer a {
+    align-self: left;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    align-self: left;
+    text-decoration: none;
+    color: rgb(145, 120, 75);
 }
 
 footer h4 {
