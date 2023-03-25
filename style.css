@@ -60,7 +60,7 @@ nav{
 }
 
 .banner{
-    background: linear-gradient(to left, rgba(71, 46, 1, 0.534)20%, rgba(0, 0, 0, 0.247)), url('/img/banner.jpg');
+    background: linear-gradient(to left, rgba(71, 46, 1, 0.534)20%, rgba(0, 0, 0, 0.247)), url('./img/banner.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
