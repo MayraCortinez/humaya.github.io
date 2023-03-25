@@ -60,7 +60,7 @@ nav{
 }
 
 .banner{
-    background: linear-gradient(to left, rgba(71, 46, 1, 0.87)20%, rgba(0, 0, 0, 0.336)), url(/img/banner.jpg);
+    background: linear-gradient(to left, rgba(71, 46, 1, 0.534)20%, rgba(0, 0, 0, 0.247)), url(/img/banner.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -345,7 +345,7 @@ li:last-child{
 
 .formText{
     width: 350%;
-    padding: 100px;
+    padding: 90px;
     background-color: white;
     color: rgb(78, 61, 30);
     justify-content: center;
@@ -357,10 +357,26 @@ li:last-child{
 .formText h3{
     font-size: medium;
     margin-top: -100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .formText label{
+    text-transform: uppercase;
+}
+
+#containerSubmit{
+    display: flex;
+    justify-content: center;
+}
+
+.submit{
+    padding: 10px 30px;
+    background: white;
+    color: rgb(78, 61, 30);
+    font-weight: bold;
+    font-size: large;
+    border: solid 4px;
+    margin-top: 30px;
     text-transform: uppercase;
 }
 
